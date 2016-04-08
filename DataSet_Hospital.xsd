@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Hospital" targetNamespace="http://tempuri.org/DataSet_Hospital.xsd" xmlns:mstns="http://tempuri.org/DataSet_Hospital.xsd" xmlns="http://tempuri.org/DataSet_Hospital.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Hospital" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Hospital" msprop:Generator_UserDSName="DataSet_Hospital">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_Accept" msprop:Generator_TableClassName="DataTable_AcceptDataTable" msprop:Generator_TableVarName="tableDataTable_Accept" msprop:Generator_TablePropName="DataTable_Accept" msprop:Generator_RowDeletingName="DataTable_AcceptRowDeleting" msprop:Generator_RowChangingName="DataTable_AcceptRowChanging" msprop:Generator_RowEvHandlerName="DataTable_AcceptRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_AcceptRowDeleted" msprop:Generator_UserTableName="DataTable_Accept" msprop:Generator_RowChangedName="DataTable_AcceptRowChanged" msprop:Generator_RowEvArgName="DataTable_AcceptRowChangeEvent" msprop:Generator_RowClassName="DataTable_AcceptRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACPT_ID" msprop:Generator_ColumnVarNameInTable="columnACPT_ID" msprop:Generator_ColumnPropNameInRow="ACPT_ID" msprop:Generator_ColumnPropNameInTable="ACPT_IDColumn" msprop:Generator_UserColumnName="ACPT_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PTNT_NAME" msprop:Generator_ColumnVarNameInTable="columnPTNT_NAME" msprop:Generator_ColumnPropNameInRow="PTNT_NAME" msprop:Generator_ColumnPropNameInTable="PTNT_NAMEColumn" msprop:Generator_UserColumnName="PTNT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ACPT_TYPE" msprop:Generator_ColumnVarNameInTable="columnACPT_TYPE" msprop:Generator_ColumnPropNameInRow="ACPT_TYPE" msprop:Generator_ColumnPropNameInTable="ACPT_TYPEColumn" msprop:Generator_UserColumnName="ACPT_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="PTNT_NATIONAL" msprop:Generator_ColumnVarNameInTable="columnPTNT_NATIONAL" msprop:Generator_ColumnPropNameInRow="PTNT_NATIONAL" msprop:Generator_ColumnPropNameInTable="PTNT_NATIONALColumn" msprop:Generator_UserColumnName="PTNT_NATIONAL" type="xs:string" minOccurs="0" />
+              <xs:element name="PTNT_GENEDER" msprop:Generator_ColumnVarNameInTable="columnPTNT_GENEDER" msprop:Generator_ColumnPropNameInRow="PTNT_GENEDER" msprop:Generator_ColumnPropNameInTable="PTNT_GENEDERColumn" msprop:Generator_UserColumnName="PTNT_GENEDER" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_NAME" msprop:Generator_ColumnVarNameInTable="columnPART_NAME" msprop:Generator_ColumnPropNameInRow="PART_NAME" msprop:Generator_ColumnPropNameInTable="PART_NAMEColumn" msprop:Generator_UserColumnName="PART_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ROOM_NUMBER" msprop:Generator_ColumnVarNameInTable="columnROOM_NUMBER" msprop:Generator_ColumnPropNameInRow="ROOM_NUMBER" msprop:Generator_ColumnPropNameInTable="ROOM_NUMBERColumn" msprop:Generator_UserColumnName="ROOM_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="ACPT_DATE" msprop:Generator_ColumnVarNameInTable="columnACPT_DATE" msprop:Generator_ColumnPropNameInRow="ACPT_DATE" msprop:Generator_ColumnPropNameInTable="ACPT_DATEColumn" msprop:Generator_UserColumnName="ACPT_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

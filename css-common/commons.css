@@ -1,0 +1,469 @@
+﻿body {
+    font-family: "web_Yekan";
+}
+/*form page login -------------------------------------------------------------*/
+div.background {
+    height: 770px;
+    font-family: "web_Yekan";
+    background-image: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+div.demu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15rem;
+    margin-top: -26.5rem;
+    width: 30rem;
+    height: 53rem;
+    background: rgba(0,0,0,0.13);
+}
+
+div.avatar {
+    margin-top: 30px;
+}
+
+    div.avatar img {
+        align: center;
+        width: 150px;
+        height: 150px;
+    }
+
+div.login-form {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 50%;
+    padding: 1.5rem .5rem;
+    text-align: center;
+}
+
+div.login-row {
+    height: 5rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+input.login-input {
+    display: inline-block;
+    width: 22rem;
+    height: 100%;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+    background: transparent;
+    color: white;
+    border: none;
+    text-align: right;
+}
+
+.login-submit {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    margin: 5rem 0 2.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: #FF3366;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+    transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+
+.login-icon {
+    margin-bottom: -0.4rem;
+    cursor: pointer;
+    outline-color: white;
+    background-color: transparent;
+    stroke: rgba(255, 255, 255, 0.9);
+    fill: none;
+    stroke-width: 1;
+    float: right;
+    margin-top: 13px;
+}
+
+svg {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+}
+
+/*---------------------------------------------------------------*/
+
+
+/*for page master -------------------------------------------------*/
+
+
+div.body-content {
+    background-image: url("../Image/Capture3.PNG");
+}
+
+div.main-topMenu {
+    height: 57px;
+    background-color: #ededed;
+    top: 0;
+    font-family: "web_Yekan";
+}
+
+    div.main-topMenu li li:hover {
+        cursor: pointer;
+        color: black;
+    }
+
+div.main-rightMenu li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+ul li.item-menu {
+    height: 140px;
+    float: right;
+    padding: 0;
+    line-height: 60px;
+    color: #808080;
+    display: block;
+    position: relative;
+}
+
+    ul li.item-menu:not(:first-child) {
+        background-repeat: repeat-x;
+        background-position: top right;
+    }
+
+div.main-topMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    background-color: #07d9ed;
+}
+
+li.sub-item:hover {
+    color: black;
+}
+
+div.main-topMenu ul li.item-menu:first-child {
+    background-color: #FF3366;
+}
+
+ul li hr {
+    width: 2px;
+    height: 45px;
+    background-color: #808080;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+ul li ul li hr {
+    height: 1px;
+    background-color: #808080;
+    margin: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    line-height: 10px;
+}
+
+li.has-sub ul li {
+    background-color: #ededed;
+}
+
+.dropDow {
+    display: none;
+}
+
+.shadow {
+    box-shadow: 1px 10px 11px 6px #c2bebe;
+}
+
+div.main-rightMenu a {
+    color: #808080;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.main-rightMenu {
+    height: 700px;
+    background-color: #333232;
+    padding: 0px;
+    font-family: "web_Yekan";
+}
+
+    div.main-rightMenu ul {
+        margin-top: 10px;
+        line-height: 50px;
+        text-align: right;
+        list-style: none;
+        padding: 0px;
+    }
+
+        div.main-rightMenu ul li a {
+            padding-right: 21px;
+            display: block;
+        }
+
+        div.main-rightMenu ul li:hover {
+            background-color: black;
+            border-right-color: #FF3366;
+            border-right-width: 5px;
+            border-right-style: solid;
+            color: white;
+        }
+
+div.main-topMenu ul ul ul.sub-subitemReport2 {
+    display: block;
+    position: absolute;
+    float: left;
+    margin-left: -280px;
+    top: 0px;
+}
+
+div.main-topMenu ul ul ul.sub-subitemReport1 {
+    display: block;
+    position: absolute;
+    float: left;
+    margin-left: -242px;
+    top: 0px;
+}
+
+li.sub-itemReport ul.sub-subitemReport {
+    display: none;
+}
+
+div.main-topMenu ul li.col-lg-2 {
+    width: 15.66666667%;
+}
+
+div.main-topMenu ul li.col-lg-10 {
+    width: 84.33333%;
+}
+
+div.main-rightMenu {
+    width: 15.66666667%;
+}
+
+    div.main-rightMenu a:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+span.arrow {
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid #A0A0A0;
+    border-top: 4px solid transparent;
+    float: left;
+    height: 0;
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 0;
+}
+
+li span.open {
+    float: left;
+    margin-top: 17px;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid #A0A0A0;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+ul.sub {
+    background-color: #4c4545;
+}
+
+div.main-body {
+    margin-top: 50px;
+}
+
+/*slid show*/
+
+
+
+/*==================================================
+ * Effect 7
+ * ===============================================*/
+.effect7
+{
+   
+   box-shadow: 0 0 12px rgba(0,0,0,0.5)
+}
+ol.carousel-indicators {
+    bottom: 0px;
+}
+.carousel-inner {
+    background-color: none;
+    height: 500px;
+    border: 9px solid white;
+    background-image: url(..\Image\slider-shadow.png);
+    background-position: bottom center;
+   
+    bottom: 0;
+}
+
+div.bs-example {
+    background-image: url(..\Image\slider-shadow.png);
+    background-position: bottom center;
+}
+
+a.left.carousel-control, a.right.carousel-control {
+    background-image: none;
+}
+
+div.carousel-inner div.one, div.carousel-inner div.two, div.carousel-inner div.three {
+    display: block;
+}
+
+    div.carousel-inner div.one img, div.carousel-inner div.two img, div.carousel-inner div.three img {
+        display: block;
+        width: 100%;
+        height: 500px;
+    }
+
+li.avatar-user-login img {
+    width: 55%;
+    height: 130px;
+    border-radius: 96px;
+    border: 2px solid #333232;
+    margin-top: 5px;
+}
+
+div.modal {
+    font-family: "web_Yekan";
+    direction: rtl;
+}
+
+    div.modal div.modal-header {
+        background-color: #07D9ED;
+    }
+
+        div.modal div.modal-header button {
+            float: left;
+        }
+
+
+
+/*--------------------------------*/
+/*div for all form*/
+
+/*رنگ دکمه ها*/
+input.btn{
+    color:black;
+}
+div.main-form {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family: "web_Yekan";
+}
+
+div.panel header.panel-heading {
+}
+
+div.main-form div.panel div.panel-body input {
+    text-align: right;
+}
+
+div.main-form div.panel div.panel-body label {
+    margin-top: 6px;
+}
+/* for datgrid*/
+.Grid {
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-family: Calibri;
+    color: #474747;
+    text-align: center;
+    margin-top: 20px;
+    direction: rtl;
+}
+
+    .Grid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        height: 40px;
+    }
+
+    .Grid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .Grid .alt {
+        background: #fcfcfc url(Images/grid-alt.png) repeat-x top;
+    }
+
+    .Grid .pgr {
+        background: #363670 url(Images/grid-pgr.png) repeat-x top;
+    }
+
+        .Grid .pgr table {
+            margin: 3px 0;
+        }
+
+        .Grid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            height: 20px;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .Grid .pgr a {
+            color: Gray;
+            text-decoration: none;
+        }
+
+            .Grid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+            /*scrollable gridveiw*/
+.scroll  
+{
+border: 1px solid #C0C0C0;
+background-color: #F0F0F0;
+width: 584px; 
+ 
+overflow-x: scroll; 
+position: relative;
+left: 0;
+top: 0;
+}
+.glyphicon-pencil {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.glyphicon-trash {
+    color: #a00c0c;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*------------------------------------------------*/
+/*search-form-doctors*/
+div#search_Doctors div.panel{
+    margin-top:20px; 
+    border:1px inset #cbc6c6;
+}
+div#panel_search{
+    margin-top:20px;
+  
+}
+
+/*persian date time picker*/
+div.divcls img{
+    display:none;
+}
