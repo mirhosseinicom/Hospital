@@ -233,7 +233,6 @@
     <Content Include="Forms\Accept.aspx" />
     <Content Include="Forms\Accept_Report.aspx" />
     <Content Include="Forms\Accept_ReportViewer.aspx" />
-    <Content Include="Forms\Beds.aspx" />
     <Content Include="Forms\Bed_Report.aspx" />
     <Content Include="Forms\Bed_ReportViewer.aspx" />
     <Content Include="Forms\Dashboard.aspx" />
@@ -414,13 +413,6 @@
     </Compile>
     <Compile Include="Forms\Accept_ReportViewer.aspx.designer.cs">
       <DependentUpon>Accept_ReportViewer.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Beds.aspx.cs">
-      <DependentUpon>Beds.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\Beds.aspx.designer.cs">
-      <DependentUpon>Beds.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\Bed_Report.aspx.cs">
       <DependentUpon>Bed_Report.aspx</DependentUpon>
